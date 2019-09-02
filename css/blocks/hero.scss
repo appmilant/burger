@@ -1,0 +1,23 @@
+.hero {
+    background: url('../img/bg/main.jpg') center center / cover no-repeat;
+}
+.hero__conteiner {
+  height: 100%;
+}
+
+.hero__content {
+    display: flex; 
+    align-items: center;
+    flex: 1;
+}
+.hero__disc {
+  padding-top: 85px;
+  margin-left: 20px;
+
+}
+.hero__subtitle {
+    font-size:56px;
+    color: #fff;
+    line-height: 1;
+    @include lifehack;
+  }

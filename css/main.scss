@@ -1,0 +1,21 @@
+//colors
+$orange: #e45028;
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: #e35028;
+
+//normolize
+@import "_misc/normalize";
+
+//setup
+@import "_misc/mixin";
+@import "_misc/fonts";
+@import "_misc/layout";
+
+//blocks
+@import "blocks/section";
+@import "blocks/hero";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/btn";
+@import "blocks/title";
