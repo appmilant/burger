@@ -3,22 +3,11 @@
 }
 .hero__conteiner {
   height: 100%;
-  width: 940px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
+ }
 .hero__content {
     display: flex;
     align-items: center;
     flex: 0.8;
-}
-.hero__title {
-  font-size: 72px;
-  color: $yellow;
-  font-weight: 400;
-  line-height: 1;
-  @include gagalin;
 }
 .hero__subtitle {
   font-size:56px;

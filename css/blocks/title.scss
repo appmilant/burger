@@ -4,4 +4,14 @@
     margin-bottom: 55px;
     line-height: 1;
     @include gagalin;
-  }
+
+    &--color {
+      &--black; {
+        color: $black;
+      }
+    
+     &--yellow {
+      color: white;
+     }
+   }
+}
