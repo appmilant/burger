@@ -61,7 +61,7 @@
     }
     
     @if $style == bold {
-        font-weight: bold;
+        font-weight: 400;
     }
 }
 @mixin lifehack() {
