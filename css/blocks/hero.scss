@@ -1,18 +1,20 @@
 .hero {
     background: url('../img/bg/main.jpg') center center / cover no-repeat;
 }
-.hero_content {
-  display: flex;
-  align-items: center;
-}
 .hero__container {
   height: 100%;
   width: 100%;
- display: flex;
- align-items: center;
-}
-.hero__content-picture {
   display: flex;
+  align-items: center;
+ }
+.hero__content {
+  display: flex;
+  align-items: center;
+  float: .8;
+}
+.hero__disc {
+  padding-top: 85px;
+  margin-left: 20px;
 }
 .hero__subtitle {
   font-size:56px;
@@ -20,8 +22,5 @@
   line-height: 1;
   @include lifehack;
 }
-.hero__disc {
-  padding-top: 85px;
-  margin-left: 20px;
-}
+
 
