@@ -1,13 +1,17 @@
 .hero {
     background: url('../img/bg/main.jpg') center center / cover no-repeat;
 }
+.hero_content {
+  display: flex;
+  align-items: center;
+}
 .hero__conteiner {
   height: 100%;
- }
-.hero__content {
-    display: flex;
-    align-items: center;
-    flex: 0.8;
+  width: 100%;
+ display: flex;
+}
+.hero__content-picture {
+  display: flex;
 }
 .hero__subtitle {
   font-size:56px;
