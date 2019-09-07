@@ -523,4 +523,19 @@ footer {
   font-family: 'lifehack';
   margin-bottom: 33px; }
 
+.reviews__list {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+
+.reviews__item {
+  width: 25;
+  height: 50%; }
+
+.reviews__pic {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%; }
+
 /*# sourceMappingURL=main.css.map */
