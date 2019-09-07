@@ -399,7 +399,12 @@ footer {
 
 .section {
   height: 100vh;
-  min-height: 650px; }
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .section--non-centered {
+    justify-content: flex-start; }
 
 .hero {
   background: url("../img/bg/main.jpg") center center/cover no-repeat; }
@@ -484,6 +489,8 @@ footer {
     color: #2f3234; }
   .title--color--yellow {
     color: white; }
+  .title--centered {
+    text-align: center; }
 
 .scroll-down-btn {
   width: 29px;
@@ -509,7 +516,7 @@ footer {
     margin-right: 0; }
 
 .best__picture {
-  margin-bottom: 54px; }
+  margin-bottom: 34px; }
 
 .best__title {
   font-size: 24px;
