@@ -24,8 +24,9 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba (#444646, .5);
-    padding: 50px 19px 19px 19 px; 
+    opacity: 0;
+    background:rgba(68, 70, 70, 0.8);
+    padding: 50px 19px 19px 19px; 
     transition: opacity .3s;
 }
 .reviews__pic {

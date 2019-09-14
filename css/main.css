@@ -361,7 +361,8 @@ body {
   overflow: hidden; }
 
 .container {
-  width: 940px;
+  max-width: 940px;
+  width: 95%;
   margin: 0 auto;
   display: flex;
   flex-direction: column; }
@@ -411,14 +412,13 @@ footer {
 
 .hero__container {
   height: 100%;
-  width: 100%;
   display: flex;
   align-items: center; }
 
 .hero__content {
   display: flex;
   align-items: center;
-  float: .8; }
+  flex: .8; }
 
 .hero__disc {
   padding-top: 85px;
@@ -434,7 +434,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 12px; }
+  padding-top: 12px;
+  width: 100%; }
 
 .header__buttons {
   display: flex;
@@ -477,7 +478,8 @@ footer {
   text-transform: uppercase;
   color: #fff;
   font-size: 13px;
-  border: 1px solid transparent; }
+  border: 1px solid transparent;
+  cursor: pointer; }
 
 .title {
   font-size: 72px;
@@ -493,17 +495,19 @@ footer {
     text-align: center; }
 
 .scroll-down-btn {
-  width: 29px;
-  height: 14;
-  background: url("/img/icon/arrow-scroll.svg") center center/contain no-repeat;
+  width: 38px;
+  height: 22px;
+  background: url("../img/icon/arrow-scroll.svg") center center/contain no-repeat;
   display: block;
   position: absolute;
   bottom: 20px;
   left: 50%;
-  transform: translateX(-50%); }
+  transform: translateX(-50%);
+  border: none;
+  cursor: pointer; }
 
 .best {
-  background: url("/img/bg/best.jpg") center center/cover no-repeat; }
+  background: url("../img/bg/best.jpg") center center/cover no-repeat; }
 
 .best__list {
   display: flex; }
@@ -516,7 +520,8 @@ footer {
     margin-right: 0; }
 
 .best__picture {
-  margin-bottom: 34px; }
+  margin-bottom: 20px;
+  height: 5rem; }
 
 .best__title {
   font-size: 24px;
@@ -544,8 +549,9 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba #444646, 0.5;
-  padding: 50px 19px 19px 19 px;
+  opacity: 0;
+  background: rgba(68, 70, 70, 0.8);
+  padding: 50px 19px 19px 19px;
   transition: opacity .3s; }
 
 .reviews__pic {
