@@ -482,6 +482,16 @@ footer {
   border: 1px solid transparent;
   cursor: pointer; }
 
+.btn2 {
+  padding: 12px 15px;
+  border-radius: 5px;
+  background: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 13px;
+  border: 1px solid transparent;
+  cursor: pointer; }
+
 .title {
   font-size: 72px;
   color: #f9b43b;
@@ -608,6 +618,7 @@ footer {
   border-radius: 58%;
   border: 1px solid transparent;
   margin-bottom: 3px;
+  display: block;
   position: relative; }
   .fixed-menu__dot:before {
     content: "";
