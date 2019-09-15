@@ -607,7 +607,8 @@ footer {
 .fixed-menu {
   position: fixed;
   top: 95px;
-  right: 53px; }
+  right: 53px;
+  z-index: 100%; }
 
 .fixed-menu__item--active .fixed-menu__dot {
   border-color: white; }
